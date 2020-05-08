@@ -18,3 +18,7 @@ function logEvent(e) {
 function logEventType(e) {
   console.log(e.type);
 }
+
+function logMouseMove(e) {
+  console.log(`mousemove, target: ${e.target}, pageX/Y: ${e.pageX}/${e.pageY}`);
+}
