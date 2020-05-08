@@ -1,0 +1,16 @@
+{
+  "name": "js-touch-drag",
+  "version": "1.0.0",
+  "description": "Exploring moving items on devices with touch input",
+  "main": "index.html",
+  "repository": "https://github.com/andyjakubowski/js-touch-drag",
+  "author": "Andy Jakubowski <hello@andyjakubowski.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "scripts": {
+    "start": "browser-sync start --server 'src' --files 'src'"
+  }
+}
