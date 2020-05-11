@@ -13,6 +13,11 @@ function logEvent(e) {
   console.log(
     `${e.type}, target: ${e.target.id}, currentTarget: ${e.currentTarget.id}, timeStamp: ${e.timeStamp}`
   );
+  // console.log(e);
+}
+
+function dirEvent(e) {
+  console.dir(e);
 }
 
 function logEventType(e) {

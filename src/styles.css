@@ -1,5 +1,6 @@
 body {
-  height: 400px;
+  /* height: 400px; */
+  height: 100vh;
   margin: 0;
   /* padding-block-start: 100px;
   padding-inline-start: 200px; */
@@ -8,14 +9,16 @@ body {
   background-image: url("./grid-thistle.png");
   background-size: 100px;
 
-  overflow: hidden;
+  /* overflow: hidden; */
+
+  /* touch-action: none; */
 }
 
 #container {
   position: relative;
   /* border: 20px solid cadetblue; */
   /* width: 100%; */
-  height: 100%;
+  height: 3000px;
 
   background-color: seashell;
   background-image: url("./grid-seashell.png");
@@ -34,20 +37,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
 
   color: white;
   font-weight: bold;
 
-  background-color: midnightblue;
+  background-color: lightseagreen;
 
   cursor: grab;
   user-select: none;
 }
 
 #square.dragging {
-  box-shadow: 0 2px 16px red;
+  box-shadow: 0 2px 32px red;
 
   cursor: grabbing;
 }
